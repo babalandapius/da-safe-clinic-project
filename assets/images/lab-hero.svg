@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+
+  <!-- Lab Table -->
+  <rect x="50" y="400" width="700" height="20" fill="#8B4513" rx="5"/>
+  <rect x="60" y="380" width="680" height="20" fill="#A0522D" rx="5"/>
+
+  <!-- Microscope -->
+  <circle cx="200" cy="350" r="8" fill="#C0C0C0"/>
+  <rect x="195" y="320" width="10" height="30" fill="#808080"/>
+  <rect x="185" y="310" width="30" height="10" fill="#808080"/>
+  <circle cx="200" cy="305" r="15" fill="#4169E1"/>
+  <circle cx="200" cy="305" r="8" fill="#ffffff" opacity="0.7"/>
+
+  <!-- Test Tubes -->
+  <rect x="300" y="250" width="8" height="120" fill="url(#glassGradient)" stroke="#4682B4" stroke-width="1"/>
+  <rect x="315" y="250" width="8" height="100" fill="url(#glassGradient)" stroke="#4682B4" stroke-width="1"/>
+  <rect x="330" y="250" width="8" height="140" fill="url(#glassGradient)" stroke="#4682B4" stroke-width="1"/>
+  <rect x="345" y="250" width="8" height="110" fill="url(#glassGradient)" stroke="#4682B4" stroke-width="1"/>
+
+  <!-- Test Tube Rack -->
+  <rect x="290" y="240" width="80" height="10" fill="#696969"/>
+  <rect x="290" y="235" width="80" height="5" fill="#808080"/>
+  <rect x="290" y="370" width="80" height="10" fill="#696969"/>
+  <rect x="290" y="375" width="80" height="5" fill="#808080"/>
+
+  <!-- Beaker -->
+  <rect x="450" y="280" width="40" height="80" fill="url(#glassGradient)" stroke="#4682B4" stroke-width="2" rx="5"/>
+  <rect x="440" y="270" width="60" height="10" fill="#C0C0C0" rx="5"/>
+  <line x1="445" y1="275" x2="455" y2="275" stroke="#4682B4" stroke-width="2"/>
+  <line x1="485" y1="275" x2="495" y2="275" stroke="#4682B4" stroke-width="2"/>
+
+  <!-- Pipette -->
+  <rect x="550" y="300" width="4" height="100" fill="#C0C0C0"/>
+  <rect x="545" y="290" width="14" height="10" fill="#808080"/>
+  <circle cx="552" cy="400" r="3" fill="#FF6347"/>
+
+  <!-- Lab Coat -->
+  <path d="M 600 200 Q 580 180 580 220 L 580 350 Q 580 370 600 370 Q 620 370 620 350 L 620 220 Q 620 180 600 200 Z" fill="#F5F5F5" stroke="#D3D3D3" stroke-width="2"/>
+  <circle cx="600" cy="180" r="20" fill="#FDBCB4"/>
+  <circle cx="595" cy="175" r="2" fill="#000"/>
+  <circle cx="605" cy="175" r="2" fill="#000"/>
+  <path d="M 590 185 Q 600 190 610 185" stroke="#000" stroke-width="1" fill="none"/>
+
+  <!-- Chemical Symbols -->
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="24" fill="#FFD700" font-weight="bold">H₂O</text>
+  <text x="180" y="150" font-family="Arial, sans-serif" font-size="20" fill="#FFD700" font-weight="bold">NaCl</text>
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="22" fill="#FFD700" font-weight="bold">C₆H₁₂O₆</text>
+
+  <!-- Lab Equipment Labels -->
+  <text x="180" y="430" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Microscope</text>
+  <text x="320" y="430" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Test Tubes</text>
+  <text x="460" y="430" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Beaker</text>
+  <text x="540" y="430" font-family="Arial, sans-serif" font-size="12" fill="#ffffff">Pipette</text>
+
+  <!-- Decorative Elements -->
+  <circle cx="700" cy="100" r="30" fill="#FFD700" opacity="0.3"/>
+  <circle cx="100" cy="500" r="20" fill="#FF6347" opacity="0.3"/>
+  <circle cx="750" cy="450" r="25" fill="#32CD32" opacity="0.3"/>
+</svg>
